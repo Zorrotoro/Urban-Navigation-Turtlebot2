@@ -1,0 +1,23 @@
+######## List of nodes and its descriptions############
+
+
+#1 rospy -> Python client library for ROS
+This enables the python code implementation
+
+
+
+#2 Twist -> Node under the nodetopic geometry_msgs.msg
+
+Twist node manages the velocity of the Turtlebot. It can control both the linear and angular velocity of the robot
+
+
+#3 BumperEvent ->Node under the nodetopic kobuki_msgs.msg 
+
+This gives the feedback based upon the bumper contact switching of the turtlebot 
+
+
+#4  Image -> Node under the nodetopic sensor_msgs.msg 
+ 
+Pictures taken by using the /camera/rgb/image_raw sensors.
+
+
